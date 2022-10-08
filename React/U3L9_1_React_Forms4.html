@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title> React</title>
+		<script crossdomain src="https://unpkg.com/react@16/umd/react.development.js ">
+		</script>
+		<script crossdomain src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+		</script>
+		<script crossdomain src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js ">
+		</script>	
+		
+	</head>
+	<body >
+		 <div id="container"></div>
+		 <script type="text/babel">
+		 class ReadName extends React.Component{
+			constructor(props){
+			super(props);
+			this.state={
+				name:'Bob',
+				age:23
+			}
+				this.handleChange=this.handleChange.bind(this);
+				this.handleSubmit=this.handleSubmit.bind(this);
+			}
+			handleChange= function(event){
+					var name=event.target.name
+					var value=event.target.value
+				this.setState({
+					[name]:value
+					
+				})
+			}
+			handleSubmit= function(event){
+			console.log("Name entered "+ this.state.name);
+			console.log("Age entered "+ this.state.age);
+			event.preventDefault();
+			}
+		 
+		 render(){
+			return (
+				<form onSubmit={this.handleSubmit}>
+					<label>
+						Name:
+					</label>
+					<input name="name" onChange={this.handleChange} 
+					value={this.state.name} type="text" >
+					</input>
+					<label>
+						Age:
+					</label>
+					<input name="age" onChange={this.handleChange} 
+					value={this.state.age} type="text" >
+					</input>
+					<input type="submit" value="submit"/>
+				</form>
+			)
+		 }
+		}
+		 
+		 ReactDOM.render(
+			<ReadName/>,
+			document.querySelector("#container")
+		 )
+			
+		 </script>
+		 
+    </body>
+</html>
