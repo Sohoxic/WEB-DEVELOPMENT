@@ -2,4 +2,4 @@
 
 > [About Babel](https://sohoxic.hashnode.dev/what-is-babel-and-how-can-you-use-it)
 
-![hello_react](images/react_hello.png)
+![hello_react](./images/hello_react.png)
