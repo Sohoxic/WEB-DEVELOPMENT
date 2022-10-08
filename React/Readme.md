@@ -18,4 +18,7 @@
 
 ![hello_react](./images/style.png)
 
+- complex_component output
+
+![hello_react](./images/complex_components.png)
 
