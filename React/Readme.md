@@ -2,8 +2,10 @@
 
 > [About Babel](https://sohoxic.hashnode.dev/what-is-babel-and-how-can-you-use-it)
 
--Hello_react output
+- Hello_react output
+
 ![hello_react](./images/hello_react.png)
 
--Hello_JSX output
+- Hello_JSX output
+
 ![hello_react](./images/hello_jsx.png)
