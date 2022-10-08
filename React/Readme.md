@@ -8,27 +8,34 @@
 
 - Hello_JSX output
 
-![hello_react](./images/hello_jsx.png)
+![Hello_JSX output](./images/hello_jsx.png)
 
 - props output
 
-![hello_react](./images/props.png)
+![props output](./images/props.png)
 
 - style output
 
-![hello_react](./images/style.png)
+![style output](./images/style.png)
 
 - complex_component output
 
-![hello_react](./images/complex_components.png)
+![complex_component output](./images/complex_components.png)
 
 
 - backTimer_STATES-LIFECYCLE output
 
-![hello_react](./images/backTimer_STATES-LIFECYCLE-initialState.png )
-![hello_react](./images/backTimer_STATES-LIFECYCLE-0seconds )
+![backTimer_STATES-LIFECYCLE output](./images/backTimer_STATES-LIFECYCLE-initialState.png )
+![backTimer_STATES-LIFECYCLE output](./images/backTimer_STATES-LIFECYCLE-0seconds )
 
 - UpTimer_STATES-LIFECYCLE output
 
-![hello_react](./images/UpTimer_STATES-LIFECYCLE_initial.png)
-![hello_react](./images/UpTimer_STATES-LIFECYCLE_after-t-time.png)
+![UpTimer_STATES-LIFECYCLE output](./images/UpTimer_STATES-LIFECYCLE_initial.png)
+![UpTimer_STATES-LIFECYCLE output](./images/UpTimer_STATES-LIFECYCLE_after-t-time.png)
+
+- Refs
+
+![refs](./images/refs_initial.png)
+![refs](./images/refColorChng1.png)
+![refs](./images/refColorChng2.png)
+![refs](./images/refColorChng3.png)
