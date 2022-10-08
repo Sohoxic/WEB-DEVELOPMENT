@@ -2,4 +2,4 @@
 
 Output :
 
-![dgClock](./img/DIGITAL_CLOCK.png)
+![dgClock](./img/DigitalClock-modified.png)
