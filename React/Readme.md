@@ -23,7 +23,12 @@
 ![hello_react](./images/complex_components.png)
 
 
--backTimer_STATES-LIFECYCLE
+-backTimer_STATES-LIFECYCLE output
 
 ![hello_react](./images/backTimer_STATES-LIFECYCLE-initialState.png )
 ![hello_react](./images/backTimer_STATES-LIFECYCLE-0seconds )
+
+UpTimer_STATES-LIFECYCLE output
+
+![hello_react](./images/UpTimer_STATES-LIFECYCLE_initial.png)
+![hello_react](./images/UpTimer_STATES-LIFECYCLE_after-t-time.png)
