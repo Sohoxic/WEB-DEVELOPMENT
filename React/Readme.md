@@ -9,3 +9,13 @@
 - Hello_JSX output
 
 ![hello_react](./images/hello_jsx.png)
+
+- props output
+
+![hello_react](./images/props.png)
+
+- style output
+
+![hello_react](./images/style.png)
+
+
