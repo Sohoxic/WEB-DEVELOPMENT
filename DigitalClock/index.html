@@ -6,11 +6,29 @@
 		<script crossdomain src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
 		</script>
 		<script crossdomain src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js ">
-		</script>	
+		</script>
 		<style>
 			h1,h2{
 				text-align:center;
+				
 				}
+				h1{
+					font-family: 'Rock Salt', cursive;
+					font-size: 10rem;
+					border: border: 2px solid #FF8787;
+					background-color: #EDEDED;
+				}
+			.h2{
+				border: 2px solid #FF8787;
+				border-radius: 100%;
+				background-color: #FF8787;
+				margin-bottom: 20%;
+				margin-left: 35%;
+				margin-right: 35%;
+			}
+			body{
+				background-color: #D8D9CF;
+			}
 				
 		</style>
 	</head>
@@ -39,9 +57,9 @@
 			render(){
 				return(
 					<div>
-						
 						<h1> Time as on Today </h1>
-						<h2> It is {this.state.date.toLocaleTimeString()} </h2>
+						
+						<div class="h2"><h2> It is {this.state.date.toLocaleTimeString()} </h2></div>
 					</div>
 				
 				)
