@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+## Youtube clone preview ( mobile,tab,laptop `responsive web application`)
 
-- FINAL YOUTUBE CLONE
+
+
+- LAPTOP VIEW
+
+![alt text](./img/laptopview1.png)
+![alt text](./img/laptopview2.png)
+
+-MOBILE VIEW
+
+![alt text](./img/mobileview1.png)
+
+# Getting Started with Create React App
 
 ## Available Scripts
 
