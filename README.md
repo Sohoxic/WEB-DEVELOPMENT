@@ -113,27 +113,6 @@ We want your work to be readable by others; therefore, we encourage you to note 
 - If you have modified/added documentation work, ensure your language is concise and contains no grammar errors.
 - Follow the project structure.
 
-## 📝 Project Structure for IoT based Issues
-
-Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a PR.
-
-Create a folder of your project title. (Example: If you want to add a LED blinking using 8051, then the project should be placed under **8051 Scripts** with project title named as "LED Blinking" and file name as "led_blinking.c" if it's a C file)
-
-The project repository you had created would have :
-
-**file_name.py** or **file_name.c** or **file_name.cpp** - This file is the project you have worked upon.
-
-**README.md** - This file is must be included to get a good understanding of the project. 
-
-**requirements.txt** - In this file, you should add all the requirements you need to make your project work which also illustrates the list of all components used specifically
-
-**Images** - This folder would have all images added, be it screenshots or step by step process images. Also, the inclusion of block diagrams and emulator circuit diagrams are a must to portray the project efficiently.
-
-Since this repo is purely technical, make sure you include "Block Diagrams" and "Emulator Prototype Circuit Diagrams" in "Images" and direct them to the README.md file
-
-**Related files** - The other additional and related files would be added up in the "Related" folder.
-
-
 ## 📝 Project Structure for All Kind of Issues and PR's
 
 
