@@ -1,6 +1,19 @@
-- Here is an article by me explaining what exactly is babel, hope this helps you to understand the JSX versions of code(briefed about JSX in the article too) that I upload in this folder.
+# 🎇 Welcome to the React World 🎆
 
-> [About Babel](https://sohoxic.hashnode.dev/what-is-babel-and-how-can-you-use-it)
+> - Before using this repo make sure you go through all the guidelines provided in this readme about how to make the most out of this repo.
+
+## How to use this repo effectively ?
+🔰 Make sure that git is installed in your system, if not then make use of the follwing article for your reference which explains git in a very beginner friendly manner and will help you to install git on your system and configure the things that are needed.
+
+[𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗚𝗶𝘁(𝗩𝗖𝗦)](https://sohoxic.hashnode.dev/introduction-to-git-version-control-system)
+<p align = "justify">
+ <a href = "https://www.linkedin.com/in/sarthakskumar/"><img src = "./img/hashnode-readme.png" height = 40 width = 40/></a>
+ <p/>
+
+
+
+#### 🚀  Here is an article by me explaining what exactly is babel, hope this helps you to understand the JSX versions of code(briefed about JSX in the article too) that I upload in this folder.
+> 🌠 [About Babel](https://sohoxic.hashnode.dev/what-is-babel-and-how-can-you-use-it)
 
 - Hello_react output
 
