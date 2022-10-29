@@ -1,4 +1,4 @@
-# 🎇 Welcome to the WebD World 🎆
+# 🎇 Welcome to the WeB-D World 🎆
 ## This repository contains all `WEB-DEVELOPMENT` related codes including my personal projects.
 
 > - Before using this repo make sure you go through all the guidelines provided in this readme about how to make the most out of this repo.
