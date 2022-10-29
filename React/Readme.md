@@ -39,3 +39,7 @@
 ![refs](./images/refColorChng1.png)
 ![refs](./images/refColorChng2.png)
 ![refs](./images/refColorChng3.png)
+
+- Stateless functional
+
+![UpTimer_STATES-LIFECYCLE output](./images/stateless_functional.png)
