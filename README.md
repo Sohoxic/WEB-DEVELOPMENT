@@ -147,5 +147,14 @@ You can refer to the following articles on the basics of Git and Github and also
 
 It always takes time to understand and learn. So, do not worry at all. I know you can do this**!💪
 
+# 📝 List of contributors
+
+<a href="https://github.com/Sohoxic/WEB-DEVELOPMENT/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sohoxic/WEB-DEVELOPMENT" />
+</a>
+
+
 
 🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
+
+©Sohoxic
