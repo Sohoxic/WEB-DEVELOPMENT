@@ -10,7 +10,7 @@
 
 [𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝘁𝗼 𝗚𝗶𝘁(𝗩𝗖𝗦)](https://sohoxic.hashnode.dev/introduction-to-git-version-control-system)
 <p align = "justify">
- <a href = "https://sohoxic.hashnode.dev/introduction-to-git-version-control-system"><img src = "https://github.com/Sohoxic/WEB-DEVELOPMENT/blob/main/React/images/hashnode-readme.png" height = 400 width = 400/></a>
+ <a href = "https://sohoxic.hashnode.dev/introduction-to-git-version-control-system"><img src = "https://github.com/Sohoxic/WEB-DEVELOPMENT/blob/main/React/images/hashnode-readme.png" height = 500 width = 450/></a>
  <p/>
 # 🎇Contributing Guidelines
 
