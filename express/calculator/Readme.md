@@ -25,6 +25,7 @@ Follow the steps below using your Terminal to complete this challenge:
 - Run server with nodemon
 
 ## OUTPUT
-![OUTPUT IMAGE](./img/1.png)
-![OUTPUT IMAGE](./img/2.png)
-![OUTPUT IMAGE](./img/result.png)
+<img src="https://github.com/Sohoxic/WEB-DEVELOPMENT/blob/main/express/img/1.png" ><img src="https://github.com/Sohoxic/WEB-DEVELOPMENT/blob/main/express/img/2.png"><br>
+<img  src="https://github.com/Sohoxic/WEB-DEVELOPMENT/blob/main/express/img/result.png">
+
+
