@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAYMENT FORM </title>
+</head>
+<body>
+   <form action="">
+       <h1>PAYMENT FORM</h1>
+       <P>NAME <input type="text" name="name" required></P> <!-- name="" has to be used to send the user entered details to the server. Inside name="" we have to give a name to the input tag-->
+       <fieldset> <!-- used to wrap into a box -->
+        <legend>Gender</legend>
+       <p>
+          Male <input type="radio" name="gender"> <!-- name of both male and female is kept same so as to allow user to choose only one among male or female -->
+          Female <input type="radio" name="gender">
+       </p>
+        </fieldset>
+       <p>Address <textarea name="address" id="add" cols="80" rows="10"></textarea></p>
+       <p>Email:<input type="email" name="email" id="email"></p>
+       <p>Phone Number: <input type="number"></p>
+       <h2>PAYMENT</h2>
+       <p>Payment_Option <select name="payment_type" id="payment_type">
+           <option value="">Select card type</option> <!-- Here we are not giving any value so that if the user selects "select card type" option nothing goes to the server -->
+           <option value="VISA">VISA</option>
+           <option value="RUPAY">Rupay</option>
+           <option value="MASTER CARD">MASTER CARD</option>
+       </select></p>
+       <P>Card Number
+           <input type="number">
+       </P>
+       <p>Expiry Date
+           <input type="date">
+       </p>
+       <p>
+           CVV <input type="password">
+       </p>
+       <p>
+           Submit <input type="submit" value="Pay Now">
+       </p>
+
+    </form>
+    
+
+</body>
+</html>

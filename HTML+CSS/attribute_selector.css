@@ -1,0 +1,14 @@
+/*li[class]{
+    background-color: blueviolet;
+}
+*/
+/*
+li[class="l2"]{
+    background-color: burlywood;
+    color: darkslateblue;
+}
+*/
+li[class~="l2"]{
+    background-color: burlywood;
+    color: darkslateblue;
+}

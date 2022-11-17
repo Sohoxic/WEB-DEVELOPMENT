@@ -1,0 +1,12 @@
+/*
+p em{
+    color: blueviolet;
+}
+a:hover {
+    color: brown;
+    text-decoration:none;
+}
+*/
+
+/* body h1+h2+p .x {color: brown;} */
+.x { color: brown;}
