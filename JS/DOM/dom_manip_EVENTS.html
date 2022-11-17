@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="clickBtn" onclick="alert('Namaster world')">CLICK ME</button> -->
+    <button id="click">clickBtn</button>
+    <script>
+        // clickBtn.onclick = function (){
+        //     alert('THIS IS ONCLICK FUNCTION.');
+        // }
+
+
+        // function callMe(){
+        //     alert('hello')
+        // }
+        // clickBtn.onclick = callMe; // callMe() likhle call hye jeto function ta nd before clicking the button only show korto alert msg ta.
+           clickBtn.onclick=function(){
+                alert('Thanks')
+           } //last line er onclick function ta kaj korbe na, only nicher onclick ta kaaj korbe. onclick er function update hye jabe in next line
+            // so to use onclick more time,use it in eventListener .
+           
+        // clickBtn.removeEventListener('click',callMe) //callMe function ta remove hye gelo event theke coz pass by reference ota.
+        // clickBtn.removeEventListener('click', function(){
+        //     alert("Thanks")
+        // }) // ekhane function ta remove hobena coz anonymous function eta and ager function jekhane alert('thanks') lekha ache nd eta totally different functions.
+
+
+        function callMe(){
+            console.log(this)  // ekhane button call korche function ke onclick hole so this is a reference to button .  
+            alert('hello')
+        }
+        clickBtn.removeEventListener('click',callMe);
+        // function callMe(event){     //addEventListener or jekono attribute diye function ta ke call kora hochhe ,then the first argument passed through this function becomes the EVENT's object. ekhane event er jaygay e pass koraleo seta event er object hobe-> any variable.
+        //     console.log(event.type) //through the object of event we can access all these things
+        //     console.log(event.currentTarget)
+        //     console.log(event.clientY)
+        //     console.log(event.clientX)
+        //     alert("Thanks for Watching")
+        // }
+        // // clickBtn.onclick = callMe 
+
+        // clickBtn.addEventListener('click', callMe)
+        // clickBtn.addEventListener('click', function(){
+        //     alert("Thanks")
+        // })
+     
+         </script>
+</body>
+</html>

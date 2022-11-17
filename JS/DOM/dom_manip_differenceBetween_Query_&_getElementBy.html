@@ -1,0 +1,46 @@
+<!-- getElementBy kono variable e store korle otar reference pass kore nd doesn't store the data whereas querySelector data ta store kore dey  --> 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstDiv" class="allDivs"> 1st Div</div> 
+    <script>
+        const allDivs = document.getElementsByClassName('allDivs')
+        console.log(allDivs)
+    </script>
+    
+    <div class="allDivs"> Second Div</div>
+    <script>
+        console.log(allDivs) // getElementBy first div er pore use korechi but abr jokhon second div create korchi tokhon dynamically change hye jachhe nd second div tao show korche.
+    </script>
+</body>
+</html> -->
+
+<!-- querySelector -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstDiv" class="allDivs"> 1st Div</div> 
+    <script>
+        const allDivs  = document.querySelectorAll(".allDivs")
+        console.log(allDivs)
+    </script>
+    
+    <div class="allDivs"> Second Div</div>
+    <script>
+        console.log(allDivs) // ekhane second div create korar por allDivs update hochhe na due to use of querySelectorAll.
+        // querySelector jab ban gaya , wo element store karne ke baad bhul jayega
+    </script>
+</body>
+</html>

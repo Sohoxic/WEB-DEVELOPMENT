@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+
+<body id="body1" class="page main">
+    <div class="firstDiv">first Div <h1>hello</h1></div>
+    <script>
+        // const newDiv = document.createElement('div') //DOM e HTML er structure e 'div' node add hobena createElement diye just create hye variable e store hochhe ei statement ta diye. Append or any other function diye add korbo node ta DOM structure e.
+        // body1.append(newDiv) // append function diye end e append hobe.
+        // const newText = document.createTextNode('Hello World')
+        // newDiv.appendChild(newText) // newDiv er bhitore ei child ta toiri hye jabe.
+        // body.prepend(newDiv) // etar mane body1 tag er sobtheke upore append korbe newDiv ke(parent node er bhitorei add korbe)
+        // body.before(newDiv) // <body> tag er upore add kore debe(parent tag er baire, just upore add korbe)
+        // body.after(newDiv)  // body tag er baire , </body> r niche add hobe
+        // firstDiv.replaceWith(newDiv)
+        // firstDiv.remove()
+
+        const newDiv = document.createElement('div')
+        newDiv.textContent="My name is Soham Sarkar"
+        newDiv.innerHTML=`<ul>
+        <li>first element</li>
+        <li>second element</li>
+        <li>Third element</li>
+    </ul>` 
+    //using backticks
+    </script>
+
+</body>
+
+</html>

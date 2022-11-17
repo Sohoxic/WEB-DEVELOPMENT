@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="element"> <!-- jokhoni kono element id-r naam diye dewa hy tokhoni ota global vairable hye jay. -->
+        <li>first element</li>
+        <li>second element</li>
+        <li>Third element</li>
+    </ul>
+    <script>
+         // ID search
+       
+        // console.log(element) // ul tag asbe output, it proves now ul tag is an global element accesible globally.
+        // element.style.background = "red"
+
+        const ulTag = document.getElementById("element")
+        ulTag.style.backgroundColor = "red"
+
+    </script>
+</body>
+</html>

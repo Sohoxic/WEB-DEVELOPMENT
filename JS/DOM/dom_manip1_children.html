@@ -1,0 +1,45 @@
+<!-- cgukdreb subkubg  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>first element</li>
+        <li>second element</li>
+        <li>Third element</li>
+    </ul>
+    <script>
+        // Root Node
+        // console.log(document.documentElement)   
+        // console.log(document.body)
+        // console.log(document.head)
+
+        // Childrens
+        // console.log(document.body.childNodes)
+        // console.log(document.body.children) // Array-er moton but array noy eta. Ekhane map reduce esob functions nei.
+        // for (node of document.body.children) {
+        //     console.log(document.body.children)
+        // }
+        // console.log(document.body.firstChild)
+        // console.log(document.body.lastChild)
+        // console.log(document.body.firstElementChild)
+        // console.log(document.body.lastElementChild)
+        // const childrensOfBody = Array.from(document.body.children)  // .children can't be manipulated
+        // console.log(childrensOfBody)
+
+        // Siblings
+        const ulTag = document.body.children[0]
+        const firstLi = ulTag.children[0]
+        const secondLi = ulTag.children[1]
+        console.log(secondLi.previousElementSibling)
+        console.log(secondLi.previousElementSibling.textContent)
+
+    </script>
+</body>
+</html>

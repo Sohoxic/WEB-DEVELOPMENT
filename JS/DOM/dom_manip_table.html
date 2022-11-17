@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>One</td>
+            <td>Two</td>
+        </tr>
+        <tr>
+            <td>Three</td>
+            <td>Four</td>
+        </tr>
+    </table>  
+    <script>
+        // Table DOM Manipulation
+        const tableTag = document.body.children[1]
+        console.log(tableTag); //jokhoni kono table banabo nd otar bhitore kono onno tag nei, then automatically tbody tag is allocated.
+        console.log(tableTag.tBodies); // this is an array 
+        console.log(tableTag.tBodies[0].rows[0].cells[1].style = "background-color:blue;") // cells mane columns.
+        console.log(tableTag.rows)
+    </script>
+</body>
+</html>

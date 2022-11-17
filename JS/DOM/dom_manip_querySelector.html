@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="element"> <!-- jokhoni kono element id-r naam diye dewa hy tokhoni ota global vairable hye jay. -->
+        <li class="list-items">first element</li>
+        <li class="list-items">second element</li>
+        <li class="list-items">Third element</li>
+    </ul>
+    <script>
+        // css e jemon bhabe id ba class select kore then styling kortam ( #idName or .className) serom bhabei amra ekhaneo korte parbo
+        // pseudo selectors o use korte parbo
+        
+        //  const listItems =  document.querySelector('.list-items')
+        // console.log("list-items") // sudhu ektai list dekhachhe, sob kota list dekhanor jonno querySelectorAll use korte hobe.
+        // const listItems1 = document.querySelectorAll('.list-items') // querySelectorAll tag-e id use korbo na coz id unique hy nd present in a single element only
+        // console.log(listItems1) 
+
+        const listItems =  document.querySelectorAll('ul > li:nth-child(2)')
+        console.log(listItems[0].textContent) 
+        const listItems2 =  document.querySelectorAll('ul > li:last-child')
+        // console.log(listItems.textContent) //undefined asbe output coz eta listItems ekta array tow otake index diye content print korate hobe
+        console.log(listItems2[0].textContent) //Third element
+
+    </script>
+</body>
+</html>
