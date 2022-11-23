@@ -18,3 +18,6 @@ Follow the steps below to complete the challenge:
 8. Inside server.js , create 2 variables, one for weight and one for height. 
 
 9. Use the BMI calculator code you wrote previously, or write some new code to calculate and send back the result as text. It should read something like "Your BMI is n" where n is equal to the calculated BMI based on their weight and height inputs.
+## OUTPUT
+<img src="../img/bmicalc-1.png"> <img src="../img/bmicalc-2.png"> <hr></hr>
+<img src="../img/bmi-result.png">
