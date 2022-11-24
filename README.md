@@ -12,6 +12,7 @@
 <p align = "justify">
  <a href = "https://sohoxic.hashnode.dev/introduction-to-git-version-control-system"><img src = "https://github.com/Sohoxic/WEB-DEVELOPMENT/blob/main/React/images/hashnode-readme.png" height = 350 width = 300/></a>
  <p/>
+ 
 # 🎇Contributing Guidelines
 
 This documentation contains a set of guidelines to help you during the contribution process. 
